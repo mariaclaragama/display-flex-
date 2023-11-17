@@ -1,0 +1,56 @@
+section {
+   border: 2px solid red; 
+}
+
+.iPhone {
+    display: flex;
+    align-items: center; /* alinhamento do eixo transversal */
+    justify-content: center;  /* alinhamento do eixo principal */
+    gap: 4rem; /* espacamento entre os elementos do display flex */
+
+    margin-bottom: 1rem;
+}
+
+.iPhone img {
+    width: 20rem;
+}
+
+.iPhone p {
+    width: 30rem;
+    text-align: center;
+}
+
+.samsung {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; /* alterar a direção do eixo principal */
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.samsung img {
+    width: 20rem;
+}
+
+.samsung p {
+    width: 30rem;
+    text-align: center;
+}
+
+.formulario {
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form {
+    max-width: 30rem;
+}
